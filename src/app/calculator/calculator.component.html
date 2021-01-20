@@ -1,0 +1,35 @@
+<div class="calculator">
+  <h1>Ballsy calculator</h1>
+  <p>Kept Number: {{numberB}}</p>
+
+  <input type="text" class="calculator-screen" value="{{count}}" disabled />
+    
+  <div class="calculator-keys">
+      
+    <button (click)="Calc('+')" type="button" class="operator" value="+">+</button>
+    <button (click)="Calc('-')" type="button" class="operator" value="-">-</button>
+    <button (click)="Calc('*')" type="button" class="operator" value="*">&times;</button>
+    <button (click)="Calc('/')" type="button" class="operator" value="/">&divide;</button>
+  
+    <button (click)="Calc('7')" type="button" value="7">7</button>
+    <button (click)="Calc('8')" type="button" value="8">8</button>
+    <button (click)="Calc('9')" type="button" value="9">9</button>
+  
+  
+    <button (click)="Calc('4')" type="button" value="4">4</button>
+    <button (click)="Calc('5')" type="button" value="5">5</button>
+    <button (click)="Calc('6')" type="button" value="6">6</button>
+  
+  
+    <button (click)="Calc('1')" type="button" value="1">1</button>
+    <button (click)="Calc('2')" type="button" value="2">2</button>
+    <button (click)="Calc('3')" type="button" value="3">3</button>
+  
+  
+    <button (click)="Calc('0')" type="button" value="0">0</button>
+    <button (click)="Calc('.')" type="button" class="decimal" value=".">.</button>
+    <button (click)="Calc('AC')" type="button" class="all-clear" value="all-clear">AC</button>
+    <button (click)="Calc('=')" type="button" class="equal-sign" value="=">=</button>
+  
+  </div>
+</div>
