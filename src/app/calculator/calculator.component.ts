@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./calculator.component.css']
 })
 export class CalculatorComponent implements OnInit {
-  @Input() title: string = 'Balls';
+  @Input() title: string = 'Calculator';
   @Input('ref') count: any = '0';
   numberA: number = 0;
   numberB: number = 0;
